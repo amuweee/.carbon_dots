@@ -1,0 +1,46 @@
+# ignore everything
+/**
+
+# except these files on root
+!.zshrc
+!.xinitrc
+!.Xmodmap
+!.gitignore
+
+# add config files
+!.config
+.config/*
+
+# i3 config
+!.config/i3
+.config/i3/*
+!.config/i3/config
+
+# alacritty
+!.config/alacritty
+.config/alacritty/*
+!.config/alacritty/alacritty.yml
+
+# htop 
+!.config/htop
+.config/htop/*
+!.config/htop/htoprc
+
+# htop 
+!.config/zathura
+.config/zathura/*
+!.config/zathura/zathurarc
+
+# neovim
+!.config/nvim
+.config/nvim/*
+!.config/nvim/lua/*
+!.config/nvim/setup/*
+
+# rofi
+!.config/rofi
+.config/rofi/*
+!.config/rofi/config.rasi
+.config/rofi/gruvbox-rofi/*
+!.config/rofi/gruvbox-rofi/gruvbox-common.rasi
+
